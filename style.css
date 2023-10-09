@@ -111,11 +111,11 @@ header .jumbotron-main-sx{
 
 header .jumbotron-main-dx{
     width: 70%;
-    /*background-color: blueviolet;*/
+    position: relative;
 }
 
 header .jumbotron-main-dx img{
-    height: 100%;
+    position: absolute;
     width: 100%;
 }
 
