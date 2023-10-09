@@ -8,7 +8,7 @@
 
 /****** COMMON *********/
 
-body{
+body header{
     font-family: 'Open Sans', sans-serif;
     background-color: #b4d0e7;
 }
@@ -98,6 +98,7 @@ header .jumbotron-main-sx{
 
 }
 
+
 header .jumbotron-main-dx{
     width: 70%;
     /*background-color: blueviolet;*/
@@ -114,7 +115,10 @@ header .jumbo-btn{
 }
 
 
-
+header .jumbo-arrow{
+    font-size: 50px;
+    padding-top: 80px;
+}
 
 /****** MAIN *********/
 
