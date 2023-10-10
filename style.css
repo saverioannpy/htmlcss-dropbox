@@ -116,10 +116,10 @@ header .jumbotron-main-sx{
 header .jumbotron-main-dx{
     width: 70%;
     position: relative;
+    bottom: -80px;
 }
 
 header .jumbotron-main-dx img{
-    position: absolute;
     width: 100%;
 }
 
@@ -153,6 +153,35 @@ main .plans{
 main .plan{
     width: calc((100% - 100px) /3);
     border: 1px solid #d0d0d3;
+    padding-bottom: 30px;
+}
+
+main .plan-hor{
+    margin-top: 50px;
+    padding-bottom: 30px;
+    border: 1px solid #d0d0d3;
+}
+
+
+main .plan-name-btn button{
+    width: 50%;
+}
+
+main .plan-name-btn h3{
+    width: 50%;
+}
+
+main .plan-name-btn{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 30px 0px;
+    
+}
+
+main .plan-hor-main p{
+    padding: 60px 30px 32px;
+    font-size: 12px;
+
 }
 
 main .checkbox{
@@ -167,7 +196,8 @@ main .checkbox > label{
     padding-right: 22px;
 }
 
-main .plan .plan-header{
+main .plan .plan-header,
+main .plan-hor .plan-hor-header{
     display: flex;
     justify-content: center;
     border-bottom: 1px solid #d0d0d3;
@@ -186,9 +216,7 @@ main .plan-description{
     display: flex;
     flex-direction: column;
     gap: 25px;
-    padding-top: 55px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding: 55px 32px 0px 32px;
 }
 
 main .plan-btn{
