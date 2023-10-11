@@ -17,6 +17,7 @@ body{
 }
 
 .container{
+    margin: 0 auto;
     max-width: 1920px;
     display: flex;
 }
@@ -317,6 +318,37 @@ main .nostri-clienti{
  main .nostri-clienti h1{
     padding-bottom: 75px;
  }
-/**************/
+
+
+/****** BANNER LOGHI CLIENTI ********/
+
+.nostri-clienti-loghi{
+    width: 100vw;
+    display: flex;
+    padding-top: 100px;
+    
+}
+
+.nostri-clienti-loghi-sx,
+.nostri-clienti-loghi-center,
+.nostri-clienti-loghi-dx{
+    width: calc(100%/3);
+    
+}
+
+.nostri-clienti-loghi-sx-row,
+.nostri-clienti-loghi-dx-row{
+    display: flex;
+}
+
+.nostri-clienti-loghi-sx-1,
+.nostri-clienti-loghi-sx-2,
+.nostri-clienti-loghi-dx-1,
+.nostri-clienti-loghi-dx-2{
+    width: calc(100%/2);
+    border: 1px solid black;
+}
+
+
 
 /****** FOOTER *********/
