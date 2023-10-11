@@ -29,6 +29,15 @@ body{
     padding: 17px;
 }
 
+.btn-white{
+    font-size: 13px;
+    font-family: inherit;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 12px;
+}
+
 /****** HEADER *********/
 
 /****** HEADER TOPMENU ******/
@@ -116,11 +125,14 @@ header .jumbotron-main-sx{
 header .jumbotron-main-dx{
     width: 70%;
     position: relative;
-    bottom: -80px;
+    
 }
+
 
 header .jumbotron-main-dx img{
     width: 100%;
+    position: absolute;
+    bottom: -80px;
 }
 
 header .jumbo-btn{
@@ -139,6 +151,8 @@ header .jumbo-arrow{
 main{
     background-color: white;
 }
+
+/**** SEZIONE: SELETTORE PIANI ABBONAMENTO ****/
 
 main .main-plan-selector{
     padding: 165px 460px;
@@ -241,4 +255,68 @@ main .plan-bottom{
 main .plan-bottom i{
     color: #0061ff;
 }
+/*****  SEZIONE: TROVA UN PARTNER   ********/
+
+main .partner-section{
+    display: flex;
+    padding: 0px 460px;
+}
+
+main .partner-img{
+    width: 60%;
+
+}
+
+main .partner-info{
+    width: 40%;
+    padding: 45px 45px 0px 55px;
+}
+
+main .partner-info h3{
+    padding-bottom: 25px;
+}
+
+main .partner-info p{
+    padding-bottom: 35px;
+}
+
+main .partner-img img{
+    width: 100%;
+}
+
+/****** SEZIONE: GRIGLIA OPERAZIONI  *******/
+
+main .operation-grill{
+    padding: 175px 460px 0px;
+}
+
+main .operation-info{
+    padding-right: 50px;
+}
+
+main .operation-grill .operation-grill-row{
+    display: flex;
+}
+
+main .operation-grill img{
+    padding-top: 90px;
+    width: 100%;
+}
+
+main .operation-grill h3{
+    padding-bottom: 18px;
+   
+}
+
+main .nostri-clienti{
+    width: 50%;
+    padding-top: 200px ;
+    padding-left: 460px;
+}
+
+ main .nostri-clienti h1{
+    padding-bottom: 75px;
+ }
+/**************/
+
 /****** FOOTER *********/
