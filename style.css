@@ -39,6 +39,16 @@ body{
     padding: 12px;
 }
 
+.btn-white-borderless{
+    font-size: 13px;
+    font-family: inherit;
+    background-color: white;
+    color: black;
+    border: 1px solid #b4d0e7;
+    padding: 12px;
+}
+
+
 /****** HEADER *********/
 
 /****** HEADER TOPMENU ******/
@@ -61,6 +71,7 @@ header .topbar-menu .topbar-menu-sx-link{
     display: flex;
     gap: 40px;
     padding-left: 20px;
+    line-height: 80px;
 }
 
 header .topbar-menu .topbar-menu-dx-link{
@@ -69,7 +80,14 @@ header .topbar-menu .topbar-menu-dx-link{
     align-items: center;
     gap: 40px;
     padding-right: 20px;
+    line-height: 80px;
 }
+
+header .topbar-menu .topbar-menu-dx-link li:hover,
+header .topbar-menu .topbar-menu-sx-link li:hover{
+    border-bottom: 1px solid black;
+}
+
 
 .topbar-menu-sx-link,
 .topbar-menu-dx-link{
@@ -91,7 +109,7 @@ header .topbar-menu .topbar-menu-dx-link{
 header .jumbotron{
     margin: 0 auto;
     padding-top: 80px;
-    padding: 0% 360px;
+    padding: 0px 360px;
 }
 
 header .jumbotron-header{
